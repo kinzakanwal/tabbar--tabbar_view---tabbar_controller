@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/src/material/colors.dart';
 
-//CHECKBOX WIDGET START
+
+
 class CheckBox extends StatefulWidget {
   CheckBox({Key? key}) : super(key: key);
 
@@ -38,30 +38,30 @@ class _CheckBoxState extends State<CheckBox> {
     );
   }
 }
-//CHECKBOX WIDGET END
 
-//RADIO WIDGET START
+
+
 class RadioWidget extends StatefulWidget {
   RadioWidget({Key? key}) : super(key: key);
-  // final String title;
+  
   @override
   _RadioWidgetState createState() => _RadioWidgetState();
 }
 
 class _RadioWidgetState extends State<RadioWidget> {
-  // String CGV = '';
-  // int _value = 1;
+  
+  
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          // Icon(
-          //   Icons.lightbulb_outline,
-          //   size: 100,
-          //   // color: bulbColor,
-          // ),
+          
+          
+          
+          
+          
           Container(
             width: 150,
             child: Row(
@@ -71,7 +71,7 @@ class _RadioWidgetState extends State<RadioWidget> {
                   groupValue: 1,
                   onChanged: (value) {
                     setState(() {
-                      // _value = value;
+                      
                     });
                   },
                 ),
@@ -91,7 +91,7 @@ class _RadioWidgetState extends State<RadioWidget> {
                   groupValue: 1,
                   onChanged: (value) {
                     setState(() {
-                      // _value = value;
+                      
                     });
                   },
                 ),
@@ -111,7 +111,7 @@ class _RadioWidgetState extends State<RadioWidget> {
                   groupValue: 1,
                   onChanged: (value) {
                     setState(() {
-                      // _value = value;
+                      
                     });
                   },
                 ),
@@ -128,8 +128,8 @@ class _RadioWidgetState extends State<RadioWidget> {
   }
 }
 
-//RADIO WIDGET END
-//DATE PICKER START
+
+
 class DatePickerWidget extends StatefulWidget {
   DatePickerWidget({Key? key}) : super(key: key);
 
@@ -170,9 +170,9 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
     );
   }
 }
-//DATE PICKER END
 
-//TEXT FIELD START
+
+
 class TextFieldWid extends StatefulWidget {
   TextFieldWid({Key? key}) : super(key: key);
 
@@ -186,9 +186,9 @@ class _TextFieldWidState extends State<TextField> {
     return TextField();
   }
 }
-//TEXT FIELD END
 
-//SLIDER START
+
+
 class SliderWidget extends StatefulWidget {
   SliderWidget({Key? key}) : super(key: key);
 
@@ -217,9 +217,9 @@ class _SliderWidgetState extends State<SliderWidget> {
   }
 }
 
-//SLIDER END
 
-//SWITCH START
+
+
 class SwitchWidget extends StatefulWidget {
   SwitchWidget({Key? key}) : super(key: key);
 
@@ -246,7 +246,7 @@ class _SwitchWidgetState extends State<SwitchWidget> {
     );
   }
 }
-//SWITCH END
+
 
 class PartTwo extends StatelessWidget {
   const PartTwo({Key? key}) : super(key: key);
@@ -289,7 +289,7 @@ class PartTwo extends StatelessWidget {
             ),
             Center(
               child: TextField(),
-              // child: Text("It's rainy here"),
+              
             ),
             Center(
               child: SliderWidget(),
@@ -309,42 +309,3 @@ class PartTwo extends StatelessWidget {
     );
   }
 }
-
-//ROUGH WORK
-// class DateTimePickerWidget extends StatefulWidget {
-//   DateTimePickerWidget({Key? key}) : super(key: key);
-
-//   @override
-//   _DateTimePickerWidgetState createState() => _DateTimePickerWidgetState();
-// }
-
-// class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
-//   DateTime _dateTime;
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//        child: Center(
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: <Widget>[
-//             Text(_dateTime == null ? 'Nothing has been picked yet' : _dateTime.toString()),
-//             RaisedButton(
-//               child: Text('Pick a date'),
-//               onPressed: () {
-//                 showDatePicker(
-//                   context: context,
-//                   initialDate: _dateTime == null ? DateTime.now() : _dateTime,
-//                   firstDate: DateTime(2001),
-//                   lastDate: DateTime(2021)
-//                 ).then((date) {
-//                   setState(() {
-//                     _dateTime = DateTime(date);
-//                   });
-//                 });
-//               },
-//             )
-//           ],
-//         ),
-//     ));
-//   }
-// }

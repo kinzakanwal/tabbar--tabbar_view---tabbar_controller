@@ -12,17 +12,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Task 8',
-      // // theme: ThemeData(
-      // //   primarySwatch: Colors.blue,
-      // // ),
-      // theme: ThemeData.dark().copyWith(
-      //   textButtonTheme: TextButtonThemeData(
-      //     style: ButtonStyle(
-      //       foregroundColor:
-      //           MaterialStateProperty.resolveWith((state) => Colors.orange),
-      //     ),
-      //   ),
-      // ),
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       home: MyHomePage(title: 'TabBar, TabBarView & TabBarController'),
     );
   }
@@ -50,25 +50,25 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               title: Text('part 1'),
               onTap: () {
-                // Update the state of the app.
-                // ...
+                
+                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => PartOne()),
                 );
-                // Navigator.pop(context);
+                
               },
             ),
             ListTile(
               title: Text('part 2'),
               onTap: () {
-                // Update the state of the app.
-                // ...
+                
+                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => PartTwo()),
                 );
-                // Navigator.pop(context);
+                
               },
             ),
           ],

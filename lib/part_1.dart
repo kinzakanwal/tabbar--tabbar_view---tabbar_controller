@@ -1,4 +1,4 @@
-// import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class PartOne extends StatelessWidget {
@@ -36,7 +36,7 @@ class PartOne extends StatelessWidget {
           children: <Widget>[
             Center(
               child: TextButton(
-                // color: Colors.blue,
+                
                 style: TextButton.styleFrom(
                   textStyle: const TextStyle(fontSize: 40),
                 ),
@@ -72,7 +72,7 @@ class PartOne extends StatelessWidget {
             Center(
               child: FloatingActionButton.extended(
                 onPressed: () {
-                  // Add your onPressed code here!
+                  
                 },
                 label: const Text('Approve'),
                 icon: const Icon(Icons.thumb_up),
@@ -82,7 +82,7 @@ class PartOne extends StatelessWidget {
             Center(
               child: OutlinedButton(
                   onPressed: () {
-                    // print('Received click');
+                    
                   },
                   child: const Text('Click Me'),
                 ),
