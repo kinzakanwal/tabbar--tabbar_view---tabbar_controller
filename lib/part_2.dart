@@ -262,22 +262,22 @@ class PartTwo extends StatelessWidget {
           bottom: const TabBar(
             tabs: <Widget>[
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.check_box),
               ),
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.text_fields),
               ),
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.slideshow),
               ),
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.cached ),
               ),
               Tab(
-                icon: Icon(Icons.beach_access_sharp),
+                icon: Icon(Icons.adjust),
               ),
               Tab(
-                icon: Icon(Icons.brightness_5_sharp),
+                icon: Icon(Icons.date_range),
               ),
             ],
           ),

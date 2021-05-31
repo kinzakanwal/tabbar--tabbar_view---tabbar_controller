@@ -15,19 +15,19 @@ class PartOne extends StatelessWidget {
           bottom:  TabBar(
             tabs: <Widget>[
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.text_fields),
               ),
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.thumb_up),
               ),
               Tab(
-                icon: Icon(Icons.cloud_outlined),
+                icon: Icon(Icons.elevator),
               ),
               Tab(
-                icon: Icon(Icons.beach_access_sharp),
+                icon: Icon(Icons.water_damage),
               ),
               Tab(
-                icon: Icon(Icons.brightness_5_sharp),
+                icon: Icon(Icons.border_all),
               ),
             ],
           ),
@@ -42,7 +42,7 @@ class PartOne extends StatelessWidget {
                 ),
                 onPressed: null,
                 child: const Text(
-                  'Enabled',
+                  'Disabled',
                 ),
               ),
             ),
